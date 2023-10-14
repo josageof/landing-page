@@ -51,7 +51,7 @@ with st.container():
             
             " Te mostrarei como faremos dos números e estratégias os seus melhores amigos 📈 "'''
         )
-        st.write("[Conheça o meu auxiliar >](https://www.linkedin.com/in/josageof/)")
+        st.write("[Conheça também o meu auxiliar >](https://www.linkedin.com/in/josageof/)")
     with right_column:
         _left, mid, _right = st.columns(3)
         with mid:
