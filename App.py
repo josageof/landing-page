@@ -69,11 +69,12 @@ with st.container():
         st.write("##")
         st.markdown(
             """
-            Para início de conversa, não vou te bombardear com jargões complicados. A idéia é te levar na cara do gol ⚽:
-            - Com simples análises, vou te mostrar o que os teus <span style="font-size: 18px; text-decoration: underline; color: orange;">dados</span> realmente estão tentando te dizer;
-            - Vamos transformar tua <span style="font-size: 18px; text-decoration: underline; color: orange;">gestão de projetos</span> em uma aventura emocionante e sem estresse;
-            - O <span style="font-size: 18px; text-decoration: underline; color: orange;">engajamento</span> do teu time levará tua produtividade a um nível jamais visto antes;
-            - Mapearemos cada detalhe dos <span style="font-size: 18px; text-decoration: underline; color: orange;">novos clientes</span>, de tal forma que até a tia do cafá vai vender.
+            Para início de conversa, não vou te bombardear com termos complicados. A ideia é te levar na cara do gol ⚽:
+
+            - Com simples análises, Vou mostrar o que os teus <span style="font-size: 18px; text-decoration: underline; color: orange;">dados</span> realmente estão tentando dizer;<br>
+            - Vamos transformar sua <span style="font-size: 18px; text-decoration: underline; color: orange;">gestão de projetos</span> em uma aventura emocionante e sem estresse;<br>
+            - O <span style="font-size: 18px; text-decoration: underline; color: orange;">engajamento</span> do seu time, levará a sua produtividade a um nível jamais visto antes;<br>
+            - Mapearemos cada detalhe dos <span style="font-size: 18px; text-decoration: underline; color: orange;">novos clientes</span>, de tal forma que até a tia do café vai vender. ☕<br>
 
             Não estou propondo mágica ou arte, é apenas ciência 👩‍🔬.
             """, unsafe_allow_html=True
