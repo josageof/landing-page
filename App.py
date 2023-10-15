@@ -44,16 +44,17 @@ with st.container():
     left_column, right_column = st.columns(2)
     with left_column:
         st.write("#")
-        st.subheader("Eu sou a byCubes :wave:")
+        st.write("#")
+        st.subheader("Olá, eu sou a byCubes :wave:")
         st.title("Especialista em _Gestão_ por _Análise de Dados_")
         st.write(
             '''🎯 Determinada em transformar a gestão em algo acessível, inteligente e, acima de tudo, divertido.
             
             " Te mostrarei como faremos dos números e estratégias os seus melhores amigos 📈 "'''
         )
-        st.write("[Conheça também o meu auxiliar >](https://www.linkedin.com/in/josageof/)")
+        st.markdown("""<i class="bi bi-person-bounding-box"></i>&ensp; [Conheça também o meu auxiliar >](https://www.linkedin.com/in/josageof/)""", unsafe_allow_html=True)
     with right_column:
-        _left, mid, _right = st.columns(3)
+        _left, mid, _right = st.columns((3, 3, 1))
         with mid:
             st.write("##")
             st.image("assets/animation-rocket_cutted.gif")
@@ -79,7 +80,7 @@ with st.container():
             Não estou propondo mágica ou arte, é apenas ciência 👩‍🔬.
             """, unsafe_allow_html=True
         )
-        st.write("[💬 Fale pelo WhatsApp >](https://wa.me/qr/EGQ6JJJBAG3XP1)")
+        st.markdown("""<i class="bi bi-whatsapp"></i>&ensp; [Fale pelo WhatsApp >](https://wa.me/5547996709333)""", unsafe_allow_html=True)
     with right_column:
         # st.write("##")
 
@@ -93,8 +94,8 @@ with st.container():
             <button type="submit">Enviar</button>
         </form>
         """
-        _left, mid, _right = st.columns((1,5,1))
-        with mid:
+        _left, right = st.columns((1,3))
+        with right:
             st.write("#### Aproveita e me manda logo uma mensagem?")
             st.markdown(contact_form, unsafe_allow_html=True)
 
@@ -119,7 +120,7 @@ with st.container():
             Juntos, podemos transformar a sua gestão e levar o seu time a novos patamares de sucesso 🚀. 
             """, unsafe_allow_html=True
         )
-        st.markdown("[Veja no LinkedIn...](https://www.linkedin.com/posts/josageof_transform-your-trello-board-management-https-activity-7053756227507396609-O9XQ?utm_source=share&utm_medium=member_desktop)")
+        st.markdown("""<i class="bi bi-linkedin"></i>&ensp; [Veja no LinkedIn...](https://www.linkedin.com/posts/josageof_transform-your-trello-board-management-https-activity-7053756227507396609-O9XQ?utm_source=share&utm_medium=member_desktop)""", unsafe_allow_html=True)
 with st.container():
     image_column, text_column = st.columns((1, 2))
     with image_column:
@@ -134,4 +135,4 @@ with st.container():
             ⛵ Navegue, escolha o que deseja ver, analise e tire suas conclusões...📊💡
             """, unsafe_allow_html=True
         )
-        st.markdown("[Utilize agora...](https://bycubes-view.streamlit.app)")
+        st.markdown("""<i class="bi bi-globe2"></i>&ensp; [Acesse agora...](https://bycubes-view.streamlit.app)""", unsafe_allow_html=True)
